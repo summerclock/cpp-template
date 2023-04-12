@@ -1,0 +1,21 @@
+#pragma once
+#include <string>
+#include <sstream>
+
+/* clang-format off */
+#define ALGO_VERSION_MAJOR "@cpp-template_VERSION_MAJOR@"
+#define ALGO_VERSION_MINOR "@cpp-template_VERSION_MINOR@"
+#define ALGO_VERSION_PATCH "@cpp-template_VERSION_PATCH@"
+#define ALGO_VERSION_TWEAK "@cpp-template_VERSION_TWEAK@"
+#define ALGO_VERSION "@cpp-template_VERSION@"
+#define ALGO_BUILD "@GIT_HASH@"
+/* clang-format on */
+
+static inline std::ostringstream PRINTVER(std::string const& ssubmodule_info = "")
+{
+  return std::ostringstream()
+         << "cpp-template version "
+         << ALGO_VERSION << "+"
+         << ALGO_BUILD
+         << ssubmodule_info;
+}

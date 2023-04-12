@@ -1,0 +1,32 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": ""
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.sideBar.location": "right",
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        80
+    ],
+    "clangd.arguments": [
+        "--header-insertion=never",
+        "--background-index",
+        "--compile-commands-dir=build",
+        "-j=12",
+        "--query-driver=/usr/bin/clang++",
+        "--clang-tidy",
+        "--clang-tidy-checks=performance-*,bugprone-*",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--pch-storage=disk",
+        "--header-insertion-decorators",
+        "--pretty"
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands",
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "auto"
+}

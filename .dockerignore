@@ -1,0 +1,8 @@
+.idea/
+.build/
+_build/
+build/
+build-out/
+build-output/
+cmake-build-*/
+cmake-out/

@@ -3,7 +3,8 @@
 {
 	"name": "cpp-template",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "Dockerfile",
+		"context": ".."
 	},
 	"mounts": [
 		"src=/opt/data,dst=/opt/data,type=bind"

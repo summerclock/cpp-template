@@ -28,5 +28,8 @@
     "lldb.dereferencePointers": true,
     "lldb.consoleMode": "commands",
     "lldb.displayFormat": "auto",
-    "lldb.showDisassembly": "auto"
+    "lldb.showDisassembly": "auto",
+    "conventionalCommits.scopes": [
+        "devcontainer"
+    ]
 }

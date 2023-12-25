@@ -34,7 +34,8 @@
 	"runArgs": [
 		"--gpus",
 		"all,\"capabilities=compute,utility\"",
-		"--ipc=host"
+		"--ipc=host",
+		"--network=host"
 	]
 	// Configure tool-specific properties.
 	// "customizations": {},

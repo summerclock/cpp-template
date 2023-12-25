@@ -23,7 +23,6 @@ Checks:  >
   -readability-function-cognitive-complexity,
 
   bugprone-*,
-  -bugprone-narrowing-conversions,
   -bugprone-unhandled-self-assignment,
   -bugprone-branch-clone,
   -bugprone-macro-parentheses,
